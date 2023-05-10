@@ -54,7 +54,7 @@ new_image = cv2.GaussianBlur(gray_image,(3,3),0)
 
 import cv2
 import matplotlib.pyplot as plt
-image=cv2.imread("alaskan.jpg")
+image=cv2.imread("carss.jpg")
 gray_img=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 img=cv2.GaussianBlur(gray_img,(3,3),0)
 sobelx=cv2.Sobel(img,cv2.CV_64F,1,0,ksize=5)
@@ -77,7 +77,7 @@ plt.show()
 
 import cv2
 import matplotlib.pyplot as plt
-image=cv2.imread("alaskan.jpg")
+image=cv2.imread("carss.jpg")
 gray_img=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 img=cv2.GaussianBlur(gray_img,(3,3),0)
 sobely=cv2.Sobel(img,cv2.CV_64F,0,1,ksize=5)
@@ -100,7 +100,7 @@ plt.show()
 
 import cv2
 import matplotlib.pyplot as plt
-image=cv2.imread("alaskan.jpg")
+image=cv2.imread("carss.jpg")
 gray_img=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 img=cv2.GaussianBlur(gray_img,(3,3),0)
 sobelxy=cv2.Sobel(img,cv2.CV_64F,0,1,ksize=5)
@@ -123,7 +123,7 @@ plt.show()
 
 import cv2
 import matplotlib.pyplot as plt
-image=cv2.imread("alaskan.jpg")
+image=cv2.imread("carss.jpg")
 gray_img=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 img=cv2.GaussianBlur(gray_img,(3,3),0)
 laplacian = cv2.Laplacian(img,cv2.CV_64F)
@@ -146,7 +146,7 @@ plt.show()
 
 import cv2
 import matplotlib.pyplot as plt
-image=cv2.imread("alaskan.jpg")
+image=cv2.imread("carss.jpg")
 gray_img=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 img=cv2.GaussianBlur(gray_img,(3,3),0)
 canny_edges = cv2.Canny(image, 120, 150)
@@ -168,29 +168,36 @@ plt.show()
 
 ### INPUT IMAGE:
 
-![out1](https://user-images.githubusercontent.com/93427534/232227951-4bd6ecaa-3482-46cc-9544-a752d5ab6037.png)
+![DI7 1](https://github.com/Javith-farkhan/Edge-Detection/assets/94296805/6046e47d-95d2-4fd1-ad3c-109be0fec995)
+
 
 ### SOBEL EDGE DETECTOR:
 
 ### SOBEL-X:
 
-![out2](https://user-images.githubusercontent.com/93427534/232227955-ddfa8bda-8474-45cf-b3f0-f49305f8226a.png)
+![Di7 2](https://github.com/Javith-farkhan/Edge-Detection/assets/94296805/67806391-0c83-465d-8ee6-3a6d482ebe31)
+
 
 ### SOBEL-Y:
 
-![out3](https://user-images.githubusercontent.com/93427534/232227958-e37259fd-c754-4e32-8750-3ca50cafe8d9.png)
+![Di7 3](https://github.com/Javith-farkhan/Edge-Detection/assets/94296805/a12cf668-ca37-4958-acca-eac59be047cf)
+
 
 ### SOBEL-XY:
 
-![out4](https://user-images.githubusercontent.com/93427534/232227962-905659b3-8f51-4117-8b3a-98517e5bfc1b.png)
+![Di7 4](https://github.com/Javith-farkhan/Edge-Detection/assets/94296805/efc71567-1bd3-48ac-9bf2-ae51f519ccf7)
+
+
 
 ### LAPLACIAN EDGE DETECTOR:
 
-![out5](https://user-images.githubusercontent.com/93427534/232227967-c041bfcd-5a4d-4871-b90f-e13b183fc402.png)
+![Di7 5](https://github.com/Javith-farkhan/Edge-Detection/assets/94296805/28b76459-b220-4be9-a9ae-6416342aae5e)
+
 
 ### CANNY EDGE DETECTOR:
 
-![out6](https://user-images.githubusercontent.com/93427534/232227970-a0fc862c-acdd-46a3-9de6-8c68b7b4e0d7.png)
+![DI7 6](https://github.com/Javith-farkhan/Edge-Detection/assets/94296805/2484ac6d-d18c-4993-921b-7ffcd394c119)
+
 
 ## Result:
 
